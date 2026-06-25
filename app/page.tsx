@@ -69,7 +69,16 @@ export default function Home() {
           </p>
         </div>
       </div>
+<section className="mt-10 max-w-3xl mx-auto bg-white p-6 rounded-xl shadow">
+        <h2 className="text-xl font-bold mb-3">時給から年収を計算する方法</h2>
 
+        <p className="text-gray-700 leading-relaxed">
+          時給から年収を計算する場合は、時給に1日の労働時間と週の勤務日数をかけて週収を出し、
+          その金額を52週分として計算します。
+          アルバイト、パート、派遣勤務などで年間収入の目安を確認したい場合に便利です。
+          実際の年収は祝日、休暇、残業、賞与、税金などによって変わるため、目安としてご利用ください。
+        </p>
+      </section>
       <section className="mt-10 max-w-3xl mx-auto bg-white p-6 rounded-xl shadow">
        <h2 className="text-xl font-bold mb-3">
   他の便利ツール
@@ -124,16 +133,7 @@ export default function Home() {
 </ul>
       </section>
 
-      <section className="mt-10 max-w-3xl mx-auto bg-white p-6 rounded-xl shadow">
-        <h2 className="text-xl font-bold mb-3">時給から年収を計算する方法</h2>
-
-        <p className="text-gray-700 leading-relaxed">
-          時給から年収を計算する場合は、時給に1日の労働時間と週の勤務日数をかけて週収を出し、
-          その金額を52週分として計算します。
-          アルバイト、パート、派遣勤務などで年間収入の目安を確認したい場合に便利です。
-          実際の年収は祝日、休暇、残業、賞与、税金などによって変わるため、目安としてご利用ください。
-        </p>
-      </section>
+      
 
       <section className="mt-10 max-w-3xl mx-auto text-center">
         <h2 className="text-xl font-bold mb-3">このサイトについて</h2>
